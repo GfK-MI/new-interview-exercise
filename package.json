@@ -1,0 +1,15 @@
+{
+  "name": "interview-exercise",
+  "version": "1.0.0",
+  "description": "Apps and test for an interview pairing exercise",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "cd frontend && npm install && cd ../backend && npm install",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^5.3.0"
+  }
+}

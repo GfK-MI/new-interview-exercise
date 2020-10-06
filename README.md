@@ -42,7 +42,6 @@ or by accessing the frontend at [https://localhost:3000](http://localhost:3000)
 ### Terminal 3
 #### via CLI
 ```bash
-cd test
 npm test
 ```
 

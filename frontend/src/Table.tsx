@@ -359,7 +359,9 @@ export default function EnhancedTable() {
                       <TableCell component="th" id={labelId} scope="row" padding="none">
                         {row.brandName}
                       </TableCell>
-                      <TableCell align="right">{row.revenue}</TableCell>
+                      <TableCell align="right">
+                        <span data-testid={`revenue-row`}>{row.revenue}</span>
+                      </TableCell>
                       <TableCell align="right">{row.unitsSold}</TableCell>
                       <TableCell align="right">{row.averagePrice}</TableCell>
                     </TableRow>

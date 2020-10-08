@@ -64,6 +64,8 @@ Then the brands are correctly ordered by revenue
 # FAQ 
 > What is a 'Brand Table'?
 
+This is what we call a Brand Leader Board. It represents the best performing Brands within a Market. 
+
 This is a representative insight that we have built for our customers. It simply shows the performance of each brand that sells products within a specific market. In this case, Flat Panel TVs in GreatBritain within a specific time period.
 
 Whilst this data is not 'real' it is representative.

@@ -42,7 +42,7 @@ or by accessing the frontend at [https://localhost:3000](http://localhost:3000)
 ### Terminal 3
 #### via CLI
 ```bash
-npm test
+cd test
 ```
 
 #### via cypress interactive runner

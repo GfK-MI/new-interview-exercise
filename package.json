@@ -6,12 +6,12 @@
   "scripts": {
     "postinstall": "cd frontend && npm install && cd ../backend && npm install",
     "cypress-install": "cypress install && cypress verify",
-    "cypress-open": "cypress open",
-    "test": "cypress run"
+    "cypress-open": "cypress open --e2e --browser chrome",
+    "test": "cypress run --e2e --browser chrome"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^9.3.0"
+    "cypress": "^13.6.4"
   }
 }

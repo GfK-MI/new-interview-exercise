@@ -52,7 +52,7 @@ const BrandsTable = () => {
     <table>
       <thead>
         <tr>
-          <th onClick={() => requestSort('name')}>Brand Name <span className="sort-indicator">{getSortIndicator('name')}</span></th>
+          <th>Brand Name</th>
           <th onClick={() => requestSort('revenue')}>Revenue <span className="sort-indicator">{getSortIndicator('revenue')}</span></th>
           <th onClick={() => requestSort('salesUnits')}>Units <span className="sort-indicator">{getSortIndicator('salesUnits')}</span></th>
           <th onClick={() => requestSort('averagePrice')}>Average Price <span className="sort-indicator">{getSortIndicator('averagePrice')}</span></th>

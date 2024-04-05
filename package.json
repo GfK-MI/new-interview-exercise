@@ -4,7 +4,7 @@
   "description": "Apps and test for an interview pairing exercise",
   "main": "index.js",
   "scripts": {
-    "postinstall": "cd frontend && npm install && cd ../backend && npm install",
+    "postinstall": "cd frontend && npm install",
     "cypress-install": "cypress install && cypress verify",
     "cypress-open": "cypress open --e2e --browser chrome",
     "test": "cypress run --e2e --browser chrome"

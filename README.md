@@ -15,27 +15,15 @@ npm install
 npm run cypress-install
 ```
 
-## 2. Serve the frontend and start the backend app
-Open two terminal windows, one to serve the frontend and one for the backend:
+## 2. Serve the frontend
+Open a separate terminal
 
-### Terminal 1
-```bash
-cd backend
-npm start
-```
-
-### Terminal 2
 ```bash
 cd frontend
 npm start
 ```
 
-you now have the application running. You can test this by hitting the api:
-```bash
-curl http://localhost:8000 | jq
-```
-
-or by accessing the frontend at [https://localhost:3000](http://localhost:3000)
+You can access the frontend at [https://localhost:3000](http://localhost:3000)
 
 ## 3. Run Example integration test
 
@@ -55,9 +43,23 @@ npm run cypress-open
 # The exercise
 **Write one or more tests that satisfies the following test scenario**
 ```gherkin
-Given I navigate to the Brand Table
-When I sort by revenue descending 
-Then the brands are correctly ordered by revenue
+Feature: Verify Sorting and Revenue Share Calculation in Brand Leaderboard Table
+
+Background: The Brand Leaderboard table displays a list of brands, their revenue, units sold, average price, and revenue share. The revenue share is a crucial metric, calculated as the brand's revenue as a percentage of the total revenue across all brands. Users need to sort the table based on different columns to analyze the data effectively.
+
+Requirement:
+
+Scenario: Sorting the Brand Leaderboard table and verifying revenue share calculations
+
+Given the Brand Leaderboard table is populated with multiple brands, each with respective revenues, units sold, and average prices
+
+When the user sorts the table by the "Revenue" column in ascending order
+
+Then the brands should be listed in the table in ascending order based on their revenue
+
+And the revenue share for each brand should be correctly calculated as (brand's revenue / total revenue) * 100
+
+And the sum of all revenue shares in the table should be approximately 100%
 ```
 <br>
 

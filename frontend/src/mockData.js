@@ -1142,7 +1142,7 @@ export default function mockData() {
             },
             "__typename": "Brand"
         }, {
-            "name": "SONY",
+            "name": "GRUNDIG",
             "details": {
                 "averagePrice": {
                     "value": 837.303,

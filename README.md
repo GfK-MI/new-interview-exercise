@@ -56,8 +56,8 @@ npm run cypress-open
 **Write one or more tests that satisfies the following test scenario**
 ```gherkin
 Given I navigate to the Brand Table
-When I sort by revenue descending 
-Then the brands are correctly ordered by revenue
+When I sort by units descending 
+Then the brands are correctly ordered by units
 ```
 <br>
 

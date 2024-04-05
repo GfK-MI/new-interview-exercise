@@ -1,6 +1,6 @@
 # Interview Exercise
 
-## Details
+## Details 
 This interview is designed to test your understanding of writing integration tests. There is boilerplate code to get started but you should apply your understanding of good framework structure, good test structures and good coding standards. Rememer this is an exercise designed for SDETs it is just as important to apply good testing practices as it is coding standards. 
 
 An FAQ is provided at the bottom of this README for additional help.
